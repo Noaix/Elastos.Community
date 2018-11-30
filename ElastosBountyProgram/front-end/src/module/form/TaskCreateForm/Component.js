@@ -984,7 +984,7 @@ class C extends BaseComponent {
                         </div>
                         }
 
-                        <Divider/>
+                        {this.state.taskType === TASK_TYPE.EVENT && <Divider/>}
 
                         {/*
                         ********************************************************************************
